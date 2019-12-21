@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/78e6f741f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>正直農場-main</title>
+
+    
+    <script>
+         x=1;
+        function left(){
+        x--;
+        document.getElementById("photo").src="https://picsum.photos/id/23"+x+"/600/400";
+        } 
+
+         function right(){
+        x++;
+        document.getElementById("photo").src="https://picsum.photos/id/23"+x+"/600/400";
+        }  
+    </script>
+
+
+
+</head>
+
+
+<body>
+    
+
+<div class="main">
+
+    <!-- header start -->
+    <div class="header">
+        <img src="image/miniLOGO.png" alt="MainLogo">
+        <span class="search">
+            <input type="text">
+            <button><i class="fas fa-search"></i></button>
+        </span>
+    </div>
+
+    <!-- content start -->
+    <div class="content">   
+        <!-- content > code start -->
+        <div class="code" id="code">
+            <div class="pic">
+                <img src="image/cropIMG.jpg">
+            </div>         
+            <div class="txt">
+                <h1>來自彰化-珍珠芭樂</h1>
+                <p>產銷追溯碼：2015052801</p>
+            </div>
+        </div>
+   
+        <!-- content > name start -->
+        <div class="name">
+            <div class="introduction" id="introduction">
+                <div class="pic">
+                    <img src="https://picsum.photos/id/1012/200/200">
+                </div>
+                
+                <div class="group">
+                    <ul class="infor">
+                        <li class="main">何松林</li>
+                        <li>
+                            <img src="image/li_phone.png">
+                            02-25460640#555
+                        </li>
+                        <li>
+                            <img src="image/li_fax.png">
+                            02-29127167
+                        </li>
+                        <li>
+                            <!-- <img src="image/li_address.png"> -->
+                            苗栗縣銅鑼鄉新雞隆段玉麟坑
+                        </li>
+                    </ul>
+        
+                    <ul class="Product">
+                        <li>自有農場</li>                                          
+                        <li>國產有機蔬菜</li>
+                        <li>國產有機水果</li>
+                    </ul>
+
+                </div>
+                
+    
+            </div>
+        </div>
+    
+        <!-- content > message start -->
+        <div class="message" id="message">
+            <div class="txt">
+                <div class="title">
+                    <p>農品資訊</p>
+                </div>
+    
+                <ul id="message_txt">
+                    <li>農產品經營單位：正直農產</li>
+                    <li>產品名稱：芭樂</li>
+                    <li>栽種產地：彰化縣社頭鄉</li>
+                    <li>聯絡電話：04-23891525</li>
+                    <li>聯絡地址：彰化縣社頭鄉清水岩路35-1號</li>
+                    <li>檢驗機構：SGS</li>
+                    <li>驗有效期限：2016/05/28</li>
+                </ul>
+            </div>         
+        </div>   
+    
+        <!-- content > package start -->
+        <div class="package" id="package">
+            <div class="txt">
+                <div class="title">
+                    <p>加工包裝</p>
+                </div>
+    
+                <ul id="package_txt">
+                    <li>加工方法：無</li>
+                    <li>加工成分：無</li>
+                    <li>包裝規格：5斤一箱</li>
+                </ul>            
+            </div>
+        </div>
+            
+        <!-- content > record start -->
+        <div class="record">
+            <div class="txt">    
+                <div class="title">
+                    <p>施做紀錄</p>
+                </div>
+                
+                <table>
+                    <tr>
+                        <th>日期</th>
+                        <th>作業種類</th>
+                        <th>作業內容</th>
+                    </tr>
+                    <tr>
+                        <td>2015/03/11</td>
+                        <td>耕地</td>
+                        <td>耕地清園(除草)</td>
+                    </tr>
+                    <tr>
+                        <td>2015/03/11</td>
+                        <td>耕地</td>
+                        <td>    使用肥料：
+                            <br>花生粕-20000公斤
+                            <br>微生物發酵液-800公斤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2015/03/11</td>
+                        <td>耕地</td>
+                        <td>耕地清園(除草)</td>
+                    </tr>
+                    <tr>
+                        <td>2015/03/11</td>
+                        <td>耕地</td>
+                        <td>    使用肥料：
+                            <br>花生粕-20000公斤
+                            <br>微生物發酵液-800公斤
+                        </td>
+                    </tr>
+                </table>   
+            </div>
+        </div>
+
+        <!-- content > explore start -->
+        <div class="explore">
+            <div class="title">
+                <p>實地勘查</p>
+            </div>
+             
+            
+            <div class="photo" id="photo">                                       
+                    <label class="hoverimg" id="hoverimg_01">
+                        <img src="https://picsum.photos/id/112/1024/768">
+                        <span></span>   
+                    </label>
+                     
+                    <label class="hoverimg" id="hoverimg_02">
+                        <img src="https://picsum.photos/id/116/1024/768">
+                        <span></span>
+                    </label>
+                       
+                    <label class="hoverimg" id="hoverimg_03">
+                        <img src="https://picsum.photos/id/118/1024/768">
+                        <span></span>
+                    </label>
+                           
+                    <label class="hoverimg" id="hoverimg_04">
+                        <img src="https://picsum.photos/id/125/1024/768">
+                        <span></span>
+                    </label>
+                          
+                    <label class="hoverimg" id="hoverimg_05">
+                        <img src="https://picsum.photos/id/127/1024/768">
+                        <span></span>
+                    </label>
+                   
+                    <label class="hoverimg" id="hoverimg_06">
+                        <img src="https://picsum.photos/id/128/1024/768">
+                        <span></span>
+                    </label>
+                    
+                    <label class="hoverimg" id="hoverimg_07">
+                        <img src="https://picsum.photos/id/132/1024/768">
+                        <span></span>
+                    </label>
+
+                    <label class="hoverimg" id="hoverimg_08">
+                        <img src="https://picsum.photos/id/140/1024/768">
+                        <span></span>
+                    </label>
+
+                    <label class="hoverimg" id="hoverimg_09">
+                        <img src="https://picsum.photos/id/147/1024/768">
+                        <span></span>
+                    </label>          
+            </div>          
+        </div>
+    </div>
+
+    <!-- cover start -->
+    <div class="cover" id="cover">       
+        <div class="covermain" id="covermain">
+            <div class="close" id="close">
+                <i class="far fa-times-circle"></i>
+            </div>
+
+            
+            <ul class="coverimg" id="coverimg">
+                <div class="left" id="left"><i class="fas fa-chevron-left"></i></div>
+                <div class="right" id="right"><i class="fas fa-chevron-right"></i></div>
+                <li><img src="https://picsum.photos/id/112/1024/768"></li>
+                <li><img src="https://picsum.photos/id/116/1024/768"></li>
+                <li><img src="https://picsum.photos/id/118/1024/768"></li>
+                <li><img src="https://picsum.photos/id/125/1024/768"></li>
+                <li><img src="https://picsum.photos/id/127/1024/768"></li>
+                <li><img src="https://picsum.photos/id/128/1024/768"></li>
+                <li><img src="https://picsum.photos/id/132/1024/768"></li>
+                <li><img src="https://picsum.photos/id/140/1024/768"></li>
+                <li><img src="https://picsum.photos/id/147/1024/768"></li>              
+            </ul>
+        </div>
+       
+    </div>
+
+    <!-- footer start -->
+    <div class="footer">
+        <ul>
+            <li><a href="#">關於正直</a></li>
+            <li><a href="#">加入我們</a></li>
+            <li><a href="#">驗證機構</a></li>
+        </ul>
+        <div class="copyright">
+            <p> 
+                Copyright &copy; Horai Co., Ltd All Rights Reserved.
+            </p>
+        </div>                    
+    </div>
+
+    <!-- gotop  start-->
+    <div class="gotop" id="gotop">
+        <i class="fas fa-angle-up"></i>
+    </div>
+  
+</div>
+
+
+<script src="script/index.js"></script>
+ 
+</body>
+</html>
